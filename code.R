@@ -1,6 +1,8 @@
 #import dataset
 #preprocessing data
 #################################################################################################################
+library(readxl)
+icadata <- read_excel('icadata.xlsx')
 View(icadata)
 icadata$four_regions <- factor(icadata$four_regions, levels = c("Africa", 
                                                                   "Asia", "Americas", "Europe"))
