@@ -1,6 +1,5 @@
-#setwd("~/Desktop/0006 ICA/ICA3")
-#import the data
-#preprocessing the data
+#import dataset
+#preprocessing data
 #################################################################################################################
 View(icadata)
 icadata$four_regions <- factor(icadata$four_regions, levels = c("Africa", 
